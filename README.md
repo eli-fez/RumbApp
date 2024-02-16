@@ -32,3 +32,5 @@ Responsibilities at RumbApp included building a FAQ Page Admin/Public view, Land
 • Complete weekly pull requests to production with manager and peer reviews using GitHub.
 
 • Conduct technical training lectures and code troubleshooting sessions with peer developers.
+
+• Provided technical training with code troubleshooting with developers in SQL.
