@@ -16,34 +16,34 @@ GO
 -- Note:
 
 ALTER PROC [dbo].[FAQs_Update]
-		@Question nvarchar (255)
+	 @Question nvarchar (255)
         ,@Answer nvarchar (2000)
         ,@CategoryId int
         ,@SortOrder int
         ,@ModifiedBy int
-		,@Id int
+	,@Id int
 		
 AS
 
 /*
 
 DECLARE
-		@Question nvarchar (255) = 'Test Question 2 Updated'
+	 @Question nvarchar (255) = 'Test Question 2 Updated'
         ,@Answer nvarchar (2000) = 'Test Answer 2 Updated'
         ,@CategoryId int = 2
         ,@SortOrder int = 1
         ,@ModifiedBy int = 1
-		,@Id int = 3
+	,@Id int = 3
 
 
 
 EXEC dbo.FAQs_Update
-		@Question
+	 @Question
         ,@Answer
         ,@CategoryId
         ,@SortOrder
         ,@ModifiedBy
-		,@Id
+	,@Id
 
 */
 
