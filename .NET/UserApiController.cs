@@ -4,19 +4,18 @@ using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Sabio.Models;
-using Sabio.Models.Domain.Users;
-using Sabio.Models.Requests.Users;
-using Sabio.Services;
-using Sabio.Web.Controllers;
-using Sabio.Web.Core;
-using Sabio.Web.Models.Responses;
-using Stripe;
+using Rumb.Models;
+using Rumb.Models.Domain.Users;
+using Rumb.Models.Requests.Users;
+using Rumb.Services;
+using Rumb.Web.Controllers;
+using Rumb.Web.Core;
+using Rumb.Web.Models.Responses;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Sabio.Web.Api.Controllers.Users
+namespace Rumb.Web.Api.Controllers.Users
 {
     [Route("api/users")]
     [ApiController]
