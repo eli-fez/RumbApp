@@ -16,13 +16,13 @@ GO
 -- Note:
 
 ALTER PROC [dbo].[FAQs_Insert]
-			@Question nvarchar (255)
+	    @Question nvarchar (255)
            ,@Answer nvarchar (2000)
            ,@CategoryId int
            ,@SortOrder int
            ,@CreatedBy int
            ,@ModifiedBy int
-		   ,@Id int OUTPUT
+	   ,@Id int OUTPUT
 
 AS
 
@@ -38,12 +38,12 @@ AS
 			,@ModifiedBy int = 2
 
 	Execute dbo.FAQs_Insert @Question
-							,@Answer
-							,@CategoryId
-							,@SortOrder
-							,@CreatedBy
-							,@ModifiedBy
-							,@Id OUTPUT
+				,@Answer
+				,@CategoryId
+				,@SortOrder
+				,@CreatedBy
+				,@ModifiedBy
+				,@Id OUTPUT
 
 
 		Select @Id
@@ -82,7 +82,6 @@ INSERT INTO [dbo].[FAQs]
 	SET @Id = SCOPE_IDENTITY()
 	SET @ModifiedBy = @CreatedBy
 
-	Select * from dbo.FAQs
 
 
 END
