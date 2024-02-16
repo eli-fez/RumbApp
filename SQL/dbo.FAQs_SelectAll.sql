@@ -1,11 +1,11 @@
 USE [RumbApp]
 GO
-/****** Object:  StoredProcedure [dbo].[FAQs_SelectAll]    Script Date: 2/16/2024 10:33:13 AM ******/
+/****** Object:  StoredProcedure [dbo].[FAQs_SelectAll]    Script Date: 01/16/2024 10:33:13 AM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
--- Author: Katie Emery
+-- Author: Elias Fernandez
 -- Create date: 12/18/2023
 -- Description: Selects all data from the FAQs table and the related Names from the FAQCategories table
 -- Code Reviewer:
