@@ -1,6 +1,6 @@
 USE [RumbApp]
 GO
-/****** Object:  StoredProcedure [dbo].[FAQs_Insert]    Script Date: 2/16/2024 10:28:24 AM ******/
+/****** Object:  StoredProcedure [dbo].[FAQs_Insert]    Script Date: 01/16/2024 10:28:24 AM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
