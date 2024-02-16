@@ -40,15 +40,15 @@ BEGIN
 
 
 SELECT u.Id,
-		,u.[firstName]
-		,u.[Email]
-	  ,s.Id as StatusId
-    ,s.[Name] as [Status]
-	  ,r.Id as RoleId
-	  ,r.[Name] as [Role]
-    ,[DateCreated]
-    ,[DateModified]
-
+      ,u.[firstName]
+      ,u.[Email]
+      ,s.Id as StatusId
+      ,s.[Name] as [Status]
+      ,r.Id as RoleId
+      ,r.[Name] as [Role]
+      ,[DateCreated]
+      ,[DateModified]
+ 
 	 
   FROM [dbo].[Users] as u inner join dbo.StatusTypes as s 
   on u.StatusId = s.Id
