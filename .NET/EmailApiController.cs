@@ -1,16 +1,16 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Sabio.Models.Requests.EmailRequests;
-using Sabio.Services.Email;
-using Sabio.Web.Controllers;
-using Sabio.Web.Models.Responses;
+using Rumb.Models.Requests.EmailRequests;
+using Rumb.Services.Email;
+using Rumb.Web.Controllers;
+using Rumb.Web.Models.Responses;
 using System;
 using Microsoft.AspNetCore.Http;
-using Sabio.Models.AppSettings;
+using Rumb.Models.AppSettings;
 using Microsoft.AspNetCore.Authorization;
 
-namespace Sabio.Web.Api.Controllers
+namespace Rumb.Web.Api.Controllers
 {
     [Route("api/email")]
     [ApiController]
