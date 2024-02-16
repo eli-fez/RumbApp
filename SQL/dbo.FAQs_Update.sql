@@ -1,11 +1,11 @@
 USE [RumbApp]
 GO
-/****** Object:  StoredProcedure [dbo].[FAQs_Update]    Script Date: 2/16/2024 10:34:14 AM ******/
+/****** Object:  StoredProcedure [dbo].[FAQs_Update]    Script Date: 01/16/2024 10:34:14 AM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
--- Author: Katie Emery
+-- Author: Elias Fernandez
 -- Create date: 12/19/2023
 -- Description: Updates data in the dbo.FAQs table
 -- Code Reviewer:
@@ -25,7 +25,7 @@ ALTER PROC [dbo].[FAQs_Update]
 		
 AS
 
-/*
+/* --- TESTCODE ---
 
 DECLARE
 	 @Question nvarchar (255) = 'Test Question 2 Updated'
