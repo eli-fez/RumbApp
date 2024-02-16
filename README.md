@@ -1,7 +1,7 @@
 # Recent Project 
 Selected and approved code snippets from recent project
 # RumbApp
-RumbApp is a Los Angeles based web application targeting South American demographic of night life enthusiast, this is a Veteran startup focused on building a platform to help any users find appropriate restraunt or bar to reserve. RumbApp is a minimum viable product (MVP). Due to the proprietary nature of the code only selected, approved snippets of code can be shared in this repository. This repository contains SQL, .NET, and ReactJS code.
+RumbApp is a Los Angeles based web application targeting South American demographic of night life enthusiast, this is a Veteran startup focused on building a platform to help any users find appropriate restaurants or bars to reserve. RumbApp is a minimum viable product (MVP). Due to the proprietary nature of the code only selected, approved snippets of code can be shared in this repository. This repository contains SQL, .NET, and ReactJS code.
 
 Responsibilities at RumbApp included building a FAQ Page Admin/Public view, Landing Page, Contact Us Page, Nav Bar and the Business Approval/Rejection component for admin interaction; these task include the Front-end, middle-tier as well as the Back-end development. My Task enables users to see recent FAQs and allows users reach out to RumbApp with a question or concerns from the Contact us Page via Email Service I implemented in the Middle Tier of .NET. As for the Landing Page this will alow the user to browse the venues and login and sign up from the Nav Bar. The Landing Page is still in development.
 
