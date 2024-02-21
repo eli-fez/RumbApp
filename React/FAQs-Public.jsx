@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Col, Container, Row, Accordion } from "react-bootstrap";
 import "./stylefaq.css";
-import debug from "sabio-debug";
 import faqService from "../../services/faqService.js";
 
 function Faq() {
